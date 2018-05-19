@@ -218,26 +218,58 @@ input[type=submit] {
 
 
 @media (max-width: 768px) {
+  .main-section{
+    width: 96%;
+    max-width: 768px;
+    margin-left: 15px;
+  }
+
+  nav{
+    margin-right: 30px;
+  }
+
   .auth-image{
     width: 400px;
     margin-bottom: 20px;
   }
+
+  /* Portafolio 768 */
+
+  .work{
+    width: 46%;
+  }
 }
 
 @media (max-width: 640px) {
-  
+
+  #masthead{
+    margin: auto;
+  }
 
   #logo{
     width: 100%;
-    display: inline-block;
+    max-width: 640px;
   }
 
   nav{
-    float: inherit;
+
+  }
+
+  .main-section{
+    width: 95%;
+    max-width: 768px;
+    margin-left: 15px;
+    margin-top: 25px;
   }
 
   .auth-image{
     width: 100%;
     margin-bottom: 30px;
+  }
+
+  /* Portafolio 640 */
+
+  .work{
+    width: 99%;
   }
 }
