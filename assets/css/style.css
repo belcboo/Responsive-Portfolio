@@ -243,7 +243,7 @@ input[type=submit] {
 @media (max-width: 640px) {
 
   #masthead{
-    margin: auto;
+    position: static;
   }
 
   #logo{
@@ -252,14 +252,22 @@ input[type=submit] {
   }
 
   nav{
-
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
   }
 
+  nav a{
+    width: 30%
+  }
+
+  #main-container{
+    padding-top: 0px;
+  }
   .main-section{
     width: 95%;
-    max-width: 768px;
+    max-width: 640px;
     margin-left: 15px;
-    margin-top: 25px;
   }
 
   .auth-image{
